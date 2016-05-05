@@ -8,9 +8,16 @@
   * シンタックスハイライトできる人ー
 
 2. atom とは
+  GitHub製のエディタ sublimeみたいなやつ
+
 3. フォルダツリーとは
+  左にある、フォルダの構造が俯瞰できるやつ
+
 4. 画面の分割
+  1つのウィンドウ内を分割して複数のファイルを見ることができる
+
 5. シンタックスハイライト
+  その言語の文法に従って色をつけたりしてくれる
 
 
 ## git 講義 【20分】
@@ -62,3 +69,8 @@ http://qiita.com/yunico-jp/items/87bdd13971e82833f6bb
   2. `$ git push origin master`
   3. 怒られたら1からもっかい
   4. `https://github.com/sesta/proken_sample` にアクセス！
+
+
+## 参考になりそうなURLたち
+### エディタ比較
+* http://radcules.com/【超おすすめ】エディター比較「sublimetext」と「atom」と/
