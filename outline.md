@@ -27,11 +27,20 @@
     テストもクソもない
 
 4. 実際にgitで管理されているコードに触れてみよう
-`git clone サンプル` とうってください
+`git clone https://github.com/sesta/proken_sample.git` とうってください
 
 5. 何かを変更してその変更を保存しよう
-  1. さっきcloneしたディレクトリを
+  1. さっきcloneしたディレクトリをatomで開く
+  2. 好きなファイルを開いて好き勝手いじる
+  3. `git status`
+  4. `git add ファイル名`
+  5. `git status`
+  6. `git commit -m バージョンの説明`
+  7. `git log`
+  8. できてる！
 
+6. いろいろやったが、これが若干わかりやすい
+http://qiita.com/yunico-jp/items/87bdd13971e82833f6bb
 
 
 ## GitHub 講義 【20分】
