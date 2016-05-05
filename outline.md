@@ -20,18 +20,21 @@ GitHub製のエディタ sublimeみたいなやつ
 その言語の文法に従って色をつけたりしてくれる
 
 
-## git 講義 【20分】
+　
+## git 講義 【30分】
 ### git とは
 > プログラムのソースコードなどの変更履歴を記録・追跡するための分散型バージョン管理システムである。
 > Linuxカーネルのソースコード管理に用いるためにリーナス・トーバルズによって開発され、それ以降ほかの多くのプロジェクトで採用されている。
 
 ### Dropboxとの違い
-ファイル更新したら同時に編集してる人のが消えますね
-だめです
+ファイル更新したら同時に編集してる人のが消えますね。
+だめです。
+gitならそれぞれの変更点をいい感じにマージしてくれます
 
 ### Google Docsとの違い
-お互いの影響がすごく出る
-テストもクソもない
+お互いの影響がすごく出る。
+テストもクソもない。
+gitならそれぞれの作業を独立した世界で行うことができる
 
 ### 実際にgitで管理されているコードに触れてみよう
 `$ git clone https://github.com/sesta/proken_sample.git`
@@ -39,18 +42,19 @@ GitHub製のエディタ sublimeみたいなやつ
 ### 何かを変更してその変更を保存しよう
 1. さっきcloneしたディレクトリをatomで開く
 2. `git-test-ユーザ名.md`を新しく作って1行で自己紹介
-3. `$ git status`
-4. `$ git add ファイル名`
-5. `$ git status`
-6. `$ git commit -m バージョンの説明`
-7. `$ git log`
+3. `$ git status` - 現在の変更を確認
+4. `$ git add ファイル名` - 変更を保存したいファイルを指定
+5. `$ git status` - 現在の変更を確認
+6. `$ git commit -m バージョンの説明` - 変更をバージョンとして保存
+7. `$ git log` - 今までのバージョンの確認
 8. できてる！
 
 ### いろいろやったが、これが若干わかりやすい
 http://qiita.com/yunico-jp/items/87bdd13971e82833f6bb
 
 
-## GitHub 講義 【10分】
+　
+## GitHub 講義 【20分】
 ### GitHubとは
 > ソフトウェア開発プロジェクトのための共有ウェブサービスであり、Gitバージョン管理システムを使用する。
 
@@ -70,6 +74,11 @@ http://qiita.com/yunico-jp/items/87bdd13971e82833f6bb
 4. `https://github.com/sesta/proken_sample` にアクセス！
 
 
+　
 ## 参考になりそうなURLたち
 ### エディタ比較
 * http://radcules.com/【超おすすめ】エディター比較「sublimetext」と「atom」と/
+### 郵便局メソッド
+* http://qiita.com/yunico-jp/items/87bdd13971e82833f6bb
+### githubの鍵登録
+* http://monsat.hatenablog.com/entry/generating-ssh-keys-for-github
